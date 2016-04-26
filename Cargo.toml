@@ -1,0 +1,11 @@
+[package]
+name = "gliumvg"
+version = "0.0.1"
+authors = ["Alexandru Pana <alexandru.pana@katzstudio.com"]
+
+[lib]
+name = "gliumvg"
+
+[dependencies.glium]
+version = "*"
+features = ["glutin"]
